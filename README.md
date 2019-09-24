@@ -1,5 +1,5 @@
 # Asteroids
-The purpose of this assignment was to created an asteroids game while implementing the observer pattern. The code written abides by functional programming rules and is Typesafe. 
+The purpose of this assignment was to create an asteroids game while implementing the observer pattern. The code written abides by functional programming rules and is Typesafe. 
 
 The Observable stream is used to observe keyboard events with causes the player's ship to move and shoot bullets. Furthermore, it is also used to update the state of the asteroids, bullets and enemy ship.
 
