@@ -24,4 +24,6 @@ Side-effects in the code have been minimised and contained in the Observable ```
  ## Plagiarism notice
 Copying or plagiarising code is a serious offence and will result in a breach in the Academic Integrity Policy https://www.monash.edu/students/academic/policies/academic-integrity. I will not be held responsible for any of these breaches. You have been warned.
 
+Assignment base by Professor Tim Dwyer, @tgdwyer.
+
 🙌 I scored a HD for this assignment.
