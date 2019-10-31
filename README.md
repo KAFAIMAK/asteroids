@@ -26,7 +26,7 @@ Side-effects in the code have been minimised and contained in the Observable ```
 This repo has been created to share my project and for future students taking this unit to get an idea on what the assignment is about. However, I do not condone the act of plagiarism so only use my work as a reference, if you wish.  
 
  ## Plagiarism notice
-Copying or plagiarising code is a serious offence and will result in a breach in the Academic Integrity Policy https://www.monash.edu/students/academic/policies/academic-integrity. I will not be held responsible for any of these breaches. You have been warned.
+Copying or plagiarising code is a serious offence and will result in a breach in the Academic Integrity Policy https://www.monash.edu/students/academic/policies/academic-integrity. I will not be held responsible for any of these breaches.
 
 Assignment base by Professor Tim Dwyer.
 
