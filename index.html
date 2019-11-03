@@ -12,7 +12,7 @@
       Overview
     </h2>
     <p>
-      The purpose of this assignment was to create an asteroids game while implementing 
+          The purpose of this assignment was to create an asteroids game while implementing 
       the observer pattern. The code written abides by functional programming rules and 
       is Typesafe. The Observable stream is used to observe keyboard events with causes 
       the player's ship to move and shoot bullets. Furthermore, it is also used to update 
@@ -23,10 +23,23 @@
       lists are used to store references of the asteroids and bullets in the game. This is 
       required to detect collisions between bullets and asteroids. I minimised the usage of 
       mutable variables whereby it is only present in the code because it is required to model
-      more complex features in the cleanest way possible. <br/>
+      more complex features in the cleanest way possible. <br/><br/>
 
-      Side-effects in the code have been minimised and contained in the Observable subscribe function. 
+          Side-effects in the code have been minimised and contained in the Observable subscribe function. 
       Lastly, the parameter and function return types have been specified to ensure that the code is Typesafe.
+      
+      <h2>
+      Features implemented
+    </h2>
+    <p> - Big asteroids break down into smaller asteroids when shot. <br>
+    - Only small asteroids can be destroyed by the player's spaceship. <br>
+    - Multiple lives have been implemented. <br>
+    - A life is deducted and the game resets when the player's spaceship crashes into an asteroid, collides with the enemy spaceship's bullet or the enemy's spaceship. <br>
+    - The game displays game over when there are no lives left and automatically refreshes the page. <br>
+    - A scoring system has been implemented. (Big asteroid = 1 point, small asteroid = 2 points). <br>
+    - Particles exploding effect when an asteroid has been shot. <br>
+    - An enemy spaceship that shoots at the player's spaceship has been implemented. It moves with varying speed. <br>
+    - Handling more than one key press. 
     </p>
   </body>
 </html>
