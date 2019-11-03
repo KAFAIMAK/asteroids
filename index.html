@@ -1,54 +1,32 @@
-<!DOCTYPE html>
 <html>
-    <head>
-        <style>
-            @import url(style.css);
-            p.highlight {
-                color: red;
-            }
-            svg {
-                background-color: rgb(41, 41, 36);
-            }
-            .score {
-                position: absolute;
-                top: 60px;
-                z-index: 1;
-                font-size: 20px;
-                color:white;
-            }
-            #gameOver {
-                position: absolute;
-                top: 250px;
-                left: 250px;
-                z-index: 1;
-                font-size: 20px;
-                color: white;
-                text-align: left;
-            }
-        </style>
-        <script src="svgelement.js"></script>
-        <script src="observable.js"></script>
-        <script src="asteroids.js"></script>
-    </head>
-    <body>
-        <h1>Asteroids</h1>
-        <div style="width:900px; height: 30;">
-        <!--Score-->
-        <h3 id="score" class="score" style="left: 30px">score: 0</h3>
-        <!--Lives-->
-        <h3 id="lives" class="score" style="left: 450px">lives: △x3</h3>
-        <!--Game Over-->
-        <h2 id="gameOver"></h2>
-        <svg id="canvas" width="600" height="600"></svg>
-        <h5
-        style="text-align:left; color:black; font-size:15px;"
-        id="instructions"
-        >
-            Instructions <br>
-            - Use ⬅️⬆️➡️ to move <br>
-            - Use [SPACE] to shoot<br>
-            - Shoot asteroids to gain points<br>
-            For more info on the features implemented, click <a href="asteroids-ext.html" target="_blank">here</a>
-        </h5>
-    </body>
+  <head>
+    <style>
+      @import url(./src/style.css);
+    </style>
+  </head>
+  <body>
+    <h1>Asteroids</h1>
+      <a href="./FIT2102-Assignment1/asteroids.html">Asteroid game</a><br />
+    </p>
+    <h2>
+      Overview
+    </h2>
+    <p>
+      The purpose of this assignment was to create an asteroids game while implementing 
+      the observer pattern. The code written abides by functional programming rules and 
+      is Typesafe. The Observable stream is used to observe keyboard events with causes 
+      the player's ship to move and shoot bullets. Furthermore, it is also used to update 
+      the state of the asteroids, bullets and enemy ship. The challenge was to ensure that 
+      all functions are pure which means that there are no side effects. The code that I 
+      have written however, is not completely pure as there are mutable variables required 
+      for elements in the game to move such as the x, y, speed and angle attributes. Furthermore, 
+      lists are used to store references of the asteroids and bullets in the game. This is 
+      required to detect collisions between bullets and asteroids. I minimised the usage of 
+      mutable variables whereby it is only present in the code because it is required to model
+      more complex features in the cleanest way possible. <br/>
+
+      Side-effects in the code have been minimised and contained in the Observable subscribe function. 
+      Lastly, the parameter and function return types have been specified to ensure that the code is Typesafe.
+    </p>
+  </body>
 </html>
