@@ -1,5 +1,5 @@
 # Asteroids
-Try out the game on Google Chrome here: https://alxojy.github.io/FIT2102-asteroids/ (It currently only works on desktop)
+Try out the game on Google Chrome here: https://alxojy.github.io/asteroids/ (It currently only works on desktop)
 
 ## FIT2102 Assignment 1 2019 - FP
 The purpose of this assignment was to create an asteroids game while implementing the observer pattern. The code written abides by functional programming rules and is Typesafe. 
