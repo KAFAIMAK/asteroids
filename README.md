@@ -1,7 +1,6 @@
-# Asteroids
+# FIT2102 Asteroids
 Try out the game on Google Chrome here: https://alxojy.github.io/asteroids/ (It currently only works on desktop)
 
-## FIT2102 Assignment 1 2019 - FP
 The purpose of this assignment was to create an asteroids game while implementing the observer pattern. The code written abides by functional programming rules and is Typesafe. 
 
 The Observable stream is used to observe keyboard events with causes the player's ship to move and shoot bullets. Furthermore, it is also used to update the state of the asteroids, bullets and enemy ship.
@@ -23,13 +22,6 @@ Side-effects in the code have been minimised and contained in the Observable ```
  
  ## Gameplay
  ![](asteroids.gif)
- 
- ## Note
-
-This repo has been created to share my project and for future students taking this unit to get an idea on what the assignment is about. However, I do not condone the act of plagiarism so only use my work as a reference, if you wish.  
-
- ## Plagiarism notice
-Copying or plagiarising code is a serious offence and will result in a breach in the Academic Integrity Policy https://www.monash.edu/students/academic/policies/academic-integrity. I will not be held responsible for any of these breaches.
 
 Assignment base by Professor Tim Dwyer.
 
